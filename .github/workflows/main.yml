@@ -28,7 +28,7 @@ jobs:
         run: node --version
       
       - name: "Definição da versão do NodeJS"
-      - uses: actions/setup-node@v6
+        uses: actions/setup-node@v6
         with: 
           node-version: '24.14.0'
       
